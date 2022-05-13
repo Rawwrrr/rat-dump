@@ -1,0 +1,16 @@
+[
+{
+  "modid": "apathy",
+  "name": "Apathy Client",
+  "description": "The most Rad QOL Mod out there.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Apath"],
+  "credits": "Mainly Me",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

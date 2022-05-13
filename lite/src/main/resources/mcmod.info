@@ -1,0 +1,16 @@
+[
+{
+  "modid": "skytilities",
+  "name": "Skytilities",
+  "description": "Just some QOL Features don't mind me.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["QOL"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
